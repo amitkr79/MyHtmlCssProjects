@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Ubuntu:wght@300;400&display=swap');
+/* font-family: 'Redressed', cursive;
+font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Varela+Round&display=swap');
+/* font-family: 'Redressed', cursive;
+font-family: 'Varela Round', sans-serif; */
+
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Redressed', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.brand img{
+    width: 47px;
+    padding: 0px 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 66px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+
+} 
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-family: 'Varela Round', sans-serif; 
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url(bgimage.jpg);
+
+}
+
+.bottom{
+    display: flex;
+    height: 120px;
+    position: sticky;
+    background-color: black;
+    background: none;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+#myprogressbar{
+    width: 80%;
+    cursor: pointer;
+
+}
+.icons{
+    margin-top: 20px;
+    cursor: pointer;
+}
